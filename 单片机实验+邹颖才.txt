@@ -1,4 +1,4 @@
-²ð×ÖÊµÑé
+ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½
 ORG 0000H
 LJMP MAIN
 MAIN:
@@ -15,7 +15,7 @@ ANL A,#0FH
 MOVX @DPTR,A
 SJMP $
 END
-ÇåÁãÊµÑé2
+ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½2
 ORG 0000H
 LJMP MAIN
 MAIN:
@@ -28,7 +28,7 @@ INC DPTR
 DJNZ R1,LOOP
 SJMP $
 END
-ÇåÁãÊµÑé1
+ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½1
 ORG 0000H
 LJMP MAIN
 MAIN:
@@ -40,7 +40,7 @@ INC R0
 DJNZ R1,LOOP
 SJMP $
 END
-ÇåÁãÊµÑé3
+ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½3
 ORG 0000H
 LJMP MAIN
 MAIN:
@@ -53,7 +53,7 @@ INC DPTR
 DJNZ R1,LOOP
 SJMP $
 END
-Êý¾Ý´«ËÍ¿é³ÌÐò
+ï¿½ï¿½ï¿½Ý´ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ï¿½ï¿½
 ORG 0000H
 LJMP MAIN
 MAIN:
@@ -67,7 +67,7 @@ INC DPTR
 INC R0
 DJNZ R1,LOOP
 END
-ÅÜÂíµÆÊµÑé
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½
 ORG 0000H
  LJMP MAIN
 MAIN:
@@ -89,8 +89,5 @@ LP1:
  DJNZ R1,LP1
  DJNZ R7,LP2
  DJNZ R6,LP3
- RET
+ ret
  END
-
-
-
